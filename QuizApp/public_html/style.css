@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Jun, 2018, 1:30:06 PM
+    Author     : Priyank H
+*/
+body{
+    background-color: buttonhighlight;
+}
+.grid{
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: 2px solid background;
+    box-shadow: 20px 20px 5px antiquewhite;
+}
+.grid h1{
+    font-family: cursive;
+    background-color: antiquewhite;
+    font-size: 45px;
+    text-align: center;
+    color: darkturquoise;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+.grid #question{
+    font-family: cursive;
+    color: black;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+}
+.buttons{
+    margin-top: 20px;
+}
+#btn0,#btn1,#btn2,#btn3{
+    font-family: cursive;
+    background-color: azure;
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px 20px 10px 20px;
+    border: 1px solid blueviolet;
+    padding: 10px 10px;
+    width: 250px; 
+}
+#progress{
+    color:darkgray;
+    font-size: 15px;
+}
+#score{
+    font-family: cursive;
+    text-align: center;
+}
+#btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+#btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus{
+    outline: 0;
+}
